@@ -9,3 +9,18 @@
 body {
   @apply h-full bg-black
 }
+
+/* 
+.post-card {
+  width: 23%;
+  margin-left: 1%;
+  display: inline-block; 
+  cursor: pointer;
+  margin-top: 1rem;
+} */
+
+.post-card:nth-child(4n) {
+  margin-right: 0; /* Remove the margin from the last card in each row */
+}
+
+
